@@ -4,7 +4,7 @@ return [
         //批量定义模型的观察者
         'observes'=>[
             'Category' =>'CategoryObserver',
-            'User'=>'GoodsObserver'
+            //'User'=>'GoodsObserver'
         ],
         //这是goods组件的默认连接属性
         'connection'=>[
