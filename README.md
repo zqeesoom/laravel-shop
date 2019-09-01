@@ -3,9 +3,14 @@
 <p align="center"> this is a laravel shop.</p>
 
 <p align="center"> 这是一个学习版，功能不全，但是已经完成了命令扩展微信登陆.</p>
-## Installing
+## Installing 请安命令顺序安装
 
 ```shell
+//安装wechat
+composer require "overtrue/laravel-wechat:~5.0"
+//安装组件命令模式扩展
+composer require shineyork/laravel-extend-database
+
 $ composer require zqeesoom/laravel-shop -vvv
 ```
 
