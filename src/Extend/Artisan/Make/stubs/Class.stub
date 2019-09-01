@@ -1,0 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2019/8/23 0023
+ * Time: 下午 7:52
+ */
+namespace DummyNamespace;
+class DummyClass{
+
+}

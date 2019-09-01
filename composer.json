@@ -1,0 +1,38 @@
+{
+    "name": "zqeesoom\/laravel-shop",
+    "description": "this is a laravel shop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zqeesoom",
+            "email": "530195656@qq.com"
+        }
+    ],
+    "require": {},
+    "replace": {
+        "zqeesoom/laravel-shop-wap-member":"self.version",
+        "zqeesoom/laravel-shop-wap-shop":"self.version",
+        "zqeesoom/laravel-shop-data-goods":"self.version",
+        "zqeesoom/laravel-shop-data-order":"self.version",
+        "zqeesoom/laravel-shop-extend-artisan": "self.version",
+        "zqeesoom/laravel-shop-pc-shop": "self.version"
+    },
+    "autoload": {
+        "files" : [
+            "src/Wap/Shop/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Zqeesoom\\LaravelShop\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Zqeesoom\\LaravelShop\\Data\\Goods\\Providers\\GoodsServiceProvider",
+                "Zqeesoom\\LaravelShop\\Extend\\Artisan\\ArtisanServiceProvider",
+                "Zqeesoom\\LaravelShop\\Wap\\Shop\\Providers\\ShopServiceProvider",
+                "Zqeesoom\\LaravelShop\\Wap\\Member\\Providers\\MemberServiceProvider"
+            ]
+        }
+    }
+}

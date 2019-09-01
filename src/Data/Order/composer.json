@@ -1,0 +1,17 @@
+{
+    "name": "zqeesoom\/laravel-shop-data-order",
+    "description": "OderServiceProvider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zqeesoom",
+            "email": "530195656@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zqeesoom\\LaravelShop\\Data\\Order\\": ""
+        }
+    }
+}

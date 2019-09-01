@@ -1,0 +1,17 @@
+{
+    "name": "zqeesoom\/laravel-shop-wap-shop",
+    "description": "this is a wap.shop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zqeesoom",
+            "email": "530195656@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zqeesoom\\LaravelShop\\Wap\\Shop\\": ""
+        }
+    }
+}

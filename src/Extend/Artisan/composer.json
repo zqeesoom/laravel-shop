@@ -1,0 +1,17 @@
+{
+    "name": "zqeesoom\/laravel-shop-extend-artisan",
+    "description": "this a extend.artisan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zqeesoom",
+            "email": "530195656@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zqeesoom\\LaravelShop\\Extend\\Artisan\\": ""
+        }
+    }
+}
